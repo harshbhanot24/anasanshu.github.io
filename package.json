@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "delete-dist": "del 3rdparty* && del main.* && del polyfills.* && del runtime.* && del styles.*",
-    "git-script": "(git add . && git commit -m 'deployment') || git push origin master",
+    "git-script": "(git add . && git commit -m 'deployment') && git push origin master",
     "move-dist": "cd dist/portfolio && move *.* ../..",
     "deploy:github": "ng build --prod && npm run delete-dist && npm run move-dist && npm run git-script"
   },
