@@ -1,0 +1,16 @@
+.experience-card {
+    /* max-width: 400px; */
+    margin: 5%;
+  }
+  
+  .experience-header-image {
+    background-image: url('https://avatars1.githubusercontent.com/u/13818575?s=460&v=4');
+    background-size: cover;
+  }
+  
+  .mat-card-avatar{
+    padding: 1%;
+  }
+  table {
+    width: 100%;
+  }
