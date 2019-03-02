@@ -9,7 +9,7 @@ export class HeaderComponent implements OnInit {
 
   profile = {
     name: "Mohammad Anas Siddiquei",
-    currentPosition: "Associate Consultant",
+    currentPosition: "Javascript-Angular Developer",
     company: "Wipro Ltd",
     location: "Bangalore, Karnataka"
   }
